@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plant_classifier/catdog/catDogClassifier.dart';
-import 'package:plant_classifier/flower/flowerClassifier.dart';
-import 'package:plant_classifier/fruits/fruitsClassifier.dart';
+import 'package:plant_classifier/Cassava/CassavaClassifier.dart';
+import 'package:plant_classifier/Sugarcane/SugarcaneClassifier.dart';
 import 'package:plant_classifier/mainScreen.dart';
-import 'package:plant_classifier/gender/genderClassification.dart';
 import 'package:plant_classifier/splashScreen.dart';
 
 void main() {
@@ -24,10 +22,9 @@ class MyApp extends StatelessWidget {
       routes: {
         SplashPage.id:(context) => SplashPage(),
         MainScreen.id:(context) => MainScreen(),
-        //CatDogClassifier.id:(context) => CatDogClassifier(),
-        FlowerClassifier.id:(context)=> FlowerClassifier(),
-        FruitsClassifier.id:(context)=> FruitsClassifier(),
-        //GenderClassification.id:(context)=> GenderClassification()
+        CassavaClassifier.id:(context)=> CassavaClassifier(),
+        SugarcaneClassifier.id:(context)=> SugarcaneClassifier(),
+        
       },
     );
   }
