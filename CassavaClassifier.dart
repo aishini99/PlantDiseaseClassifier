@@ -4,14 +4,14 @@ import 'package:plant_classifier/buttons.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
 
-class FlowerClassifier extends StatefulWidget {
-  static const String id = 'flowerClassifier';
+class CassavaClassifier extends StatefulWidget {
+  static const String id = 'CassavaClassifier';
 
   @override
-  _FlowerClassifierState createState() => _FlowerClassifierState();
+  _CassavaClassifierState createState() => _CassavaClassifierState();
 }
 
-class _FlowerClassifierState extends State<FlowerClassifier> {
+class _CassavaClassifierState extends State<CassavaClassifier> {
   final picker = ImagePicker();
   File _image;
   bool _loading = false;
