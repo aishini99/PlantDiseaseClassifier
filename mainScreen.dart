@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:plant_classifier/buttons.dart';
 
-import 'package:plant_classifier/flower/flowerClassifier.dart';
-import 'package:plant_classifier/fruits/fruitsClassifier.dart';
+import 'package:plant_classifier/Cassava/CassavaClassifier.dart';
+import 'package:plant_classifier/Sugarcane/SugarcaneClassifier.dart';
 
 
 
@@ -41,14 +41,14 @@ class _MainScreenState extends State<MainScreen> {
                 text: 'Cassava Disease Classification',
                 imagePath: 'assets/flowers.jpg',
                 onClick: () {
-                  Navigator.pushNamed(context, FlowerClassifier.id);
+                  Navigator.pushNamed(context, CassavaClassifier.id);
                 },
               ),
               ListContent(
                 text: 'Sugarcane Disease Classification',
                 imagePath: 'assets/fruits.jpg',
                 onClick: () {
-                  Navigator.pushNamed(context, FruitsClassifier.id);
+                  Navigator.pushNamed(context, SugarcaneClassifier.id);
                 },
               ),
 
