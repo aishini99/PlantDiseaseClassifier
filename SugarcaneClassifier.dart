@@ -6,12 +6,12 @@ import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
 
 class FruitsClassifier extends StatefulWidget {
-  static const String id = 'fruitsClassifier';
+  static const String id = 'SugarcaneClassifier';
   @override
-  _FruitsClassifierState createState() => _FruitsClassifierState();
+  _SugarcaneClassifierState createState() => _SugarcaneClassifierState();
 }
 
-class _FruitsClassifierState extends State<FruitsClassifier> {
+class _SugarcaneClassifierState extends State<SugarcaneClassifier> {
   final picker = ImagePicker();
   File _image;
   bool _loading = false;
