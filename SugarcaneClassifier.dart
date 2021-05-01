@@ -5,7 +5,7 @@ import 'package:plant_classifier/buttons.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
 
-class FruitsClassifier extends StatefulWidget {
+class SugarcaneClassifier extends StatefulWidget {
   static const String id = 'SugarcaneClassifier';
   @override
   _SugarcaneClassifierState createState() => _SugarcaneClassifierState();
